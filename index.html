@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Photo Gallery</title>
+	<!-- Material -->
+	
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	 <!-- Font awesome CSS -->
+	<!-- Photo Gallery -->
+     <link rel="stylesheet" href="css/lightbox.min.css">
+     <link rel="stylesheet" href="css/imagehover.min.css">
+	<link href="css/all.css" rel="stylesheet">
+	<link rel="stylesheet" href="mono.css">
+	<style>
+        .gallery{
+        	margin: 10px 50px;
+        }
+        .gallery img{
+        	width: 200px;
+        	padding: 5px;
+        	height: 200px;
+            transition: 1s;
+        }
+        .gallery img:hover{transform: scale(1.1);}
+        .box-hover{
+          width: 200px;
+          height: 200px;
+          position: relative;
+          overflow: hidden;
+          float: left;
+          margin: 5px;
+        }
+        .box-hover img{
+        	width: 100%;
+        	height: auto;
+        	transition: 0.5s;
+        }
+        .box-hover .content{
+        	text-align: center;
+        	background-color: #01579B;
+        	opacity: 0.9;
+        	color: white;
+        	width: 100%;
+        	height: 150%;
+        	position: absolute;
+        	top: 0;
+        	left: 0;
+        	padding: 0px 15px;
+        	box-sizing: border-box;
+        	visibility: hidden;
+        	transition: all 0.5s;
+        }
+        .box-hover .content > .hover-ancor{
+        	border: 1px solid;text-decoration: none;
+        	padding: 2px 10px;
+        	color: white;
+        }
+        .box-hover .content > h3{margin-bottom: 0px;}
+        .a_tag{color: white;text-decoration: none;}
+        .box-hover .content > .hover-ancor:hover{
+        	color: white;text-decoration: none;text-decoration: none;
+        	border: 1px solid;
+        	padding: 5px 10px;
+        	background-color: rgba(50, 50, 50,0.5);
+        }
+        .box-hover:hover .content{visibility: visible; transform: scale(1.1);}
+        .content:hover .box-hover {overflow:hidden;}
+
+	</style>
+</head>
+<body>
+			<div class="box-hover">		
+				<a href="images/01.jpg" data-lightbox="mygallery" title="photo one" class="a_tag"><img src="images/01.jpg" alt="">
+					<div class="content">
+			    	<h3>Heading</h3>
+			    	<p>Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Fugiat unde ipsum ducimus accusantium facilis </p>
+			    	<a href="#" class="hover-ancor">Read More</a>
+	    			<a href="#" class="hover-ancor">Details</a>
+			    </div>
+				</a>
+			</div>
+			<div class="box-hover">		
+				<a href="images/01.jpg" data-lightbox="mygallery" title="photo one" class="a_tag"><img src="images/01.jpg" alt="">
+					<div class="content">
+			    	<h3>Heading</h3>
+			    	<p>Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Fugiat unde ipsum ducimus accusantium facilis </p>
+			    	<a href="#" class="hover-ancor">Read More</a>
+	    			<a href="#" class="hover-ancor">Details</a>
+			    </div>
+				</a>
+			</div>
+			<div class="box-hover">		
+				<a href="images/01.jpg" data-lightbox="mygallery" title="photo one" class="a_tag"><img src="images/01.jpg" alt="">
+					<div class="content">
+			    	<h3>Heading</h3>
+			    	<p>Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Fugiat unde ipsum ducimus accusantium facilis </p>
+			    	<a href="#" class="hover-ancor">Read More</a>
+	    			<a href="#" class="hover-ancor">Details</a>
+			    </div>
+				</a>
+			</div>
+			<div class="box-hover">		
+				<a href="images/01.jpg" data-lightbox="mygallery" title="photo one" class="a_tag"><img src="images/01.jpg" alt="">
+					<div class="content">
+			    	<h3>Heading</h3>
+			    	<p>Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Fugiat unde ipsum ducimus accusantium facilis </p>
+			    	<a href="#" class="hover-ancor">Read More</a>
+	    			<a href="#" class="hover-ancor">Details</a>
+			    </div>
+				</a>
+			</div>
+			<div class="box-hover">		
+				<a href="images/01.jpg" data-lightbox="mygallery" title="photo one" class="a_tag"><img src="images/01.jpg" alt="">
+					<div class="content">
+			    	<h3>Heading</h3>
+			    	<p>Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Fugiat unde ipsum ducimus accusantium facilis </p>
+			    	<a href="#" class="hover-ancor">Read More</a>
+	    			<a href="#" class="hover-ancor">Details</a>
+			    </div>
+				</a>
+			</div>
+			<div class="box-hover">		
+				<a href="images/01.jpg" data-lightbox="mygallery" title="photo one" class="a_tag"><img src="images/01.jpg" alt="">
+					<div class="content">
+			    	<h3>Heading</h3>
+			    	<p>Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Fugiat unde ipsum ducimus accusantium facilis </p>
+			    	<a href="#" class="hover-ancor">Read More</a>
+	    			<a href="#" class="hover-ancor">Details</a>
+			    </div>
+				</a>
+			</div>
+			<div class="box-hover">		
+				<a href="images/01.jpg" data-lightbox="mygallery" title="photo one" class="a_tag"><img src="images/01.jpg" alt="">
+					<div class="content">
+			    	<h3>Heading</h3>
+			    	<p>Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Fugiat unde ipsum ducimus accusantium facilis </p>
+			    	<a href="#" class="hover-ancor">Read More</a>
+	    			<a href="#" class="hover-ancor">Details</a>
+			    </div>
+				</a>
+			</div>
+			<div class="box-hover">		
+				<a href="images/01.jpg" data-lightbox="mygallery" title="photo one" class="a_tag"><img src="images/01.jpg" alt="">
+					<div class="content">
+			    	<h3>Heading</h3>
+			    	<p>Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Fugiat unde ipsum ducimus accusantium facilis </p>
+			    	<a href="#" class="hover-ancor">Read More</a>
+	    			<a href="#" class="hover-ancor">Details</a>
+			    </div>
+				</a>
+			</div>
+<br>
+			<hr style="width: 100%;">
+			Pretty Photo
+			<hr style="width: 100%;"><br>
+<div class="gallery">
+<a href="images/01.jpg" data-lightbox="mygallery" title="photo one"><img src="images/01.jpg" alt=""></a>
+<a href="images/02.jpg" data-lightbox="mygallery" title="photo one"><img src="images/02.jpg" alt=""></a>
+<a href="images/03.jpg" data-lightbox="mygallery" title="photo one"><img src="images/03.jpg" alt=""></a>
+<a href="images/04.jpg" data-lightbox="mygallery" title="photo one"><img src="images/04.jpg" alt=""></a>
+<a href="images/05.jpg" data-lightbox="mygallery" title="photo one"><img src="images/05.jpg" alt=""></a>
+<a href="images/06.jpg" data-lightbox="mygallery" title="photo one"><img src="images/06.jpg" alt=""></a>
+<a href="images/07.jpg" data-lightbox="mygallery" title="photo one"><img src="images/07.jpg" alt=""></a>
+</div>
+<script src="js/jquery.js"></script>
+<script src="js/lightbox-plus-jquery.min.js"></script>
+
+<script type="text/javascript">
+    $(document).ready(function(){
+
+    })
+</script>
+</body>
+</html>
